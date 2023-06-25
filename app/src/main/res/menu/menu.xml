@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:id="@+id/menu_love"
+        android:title="Bill"
+        android:icon="@drawable/ic_baseline_list_alt"
+        />
+
+    <item
+        android:id="@+id/menu_bank"
+        android:title="Product"
+        android:icon="@drawable/ic_baseline_water_drop"
+        />
+
+    <item
+        android:id="@+id/menu_customers"
+        android:title="Customer"
+        android:icon="@drawable/ic_baseline_person"
+        />
+
+    <item
+        android:id="@+id/menu_users"
+        android:title="Staff"
+        android:icon="@drawable/users"
+        />
+</menu>

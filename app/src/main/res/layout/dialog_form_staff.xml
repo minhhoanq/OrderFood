@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_popular"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/edt_add_ho"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Họ"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_add_ten"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_add_cmnd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="CCCD/CMND"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_add_ns"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Ngày sinh"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_add_sdt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_add_phai"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phái"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_add_dc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_add_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_add_ps"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/btn_add_staff"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bg_btn_getstarted"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_add_st"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_add_staff"
+            app:layout_constraintEnd_toEndOf="@+id/btn_add_staff"
+            app:layout_constraintStart_toStartOf="@+id/btn_add_staff"
+            app:layout_constraintTop_toTopOf="@+id/btn_add_staff" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

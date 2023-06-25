@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_popular"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/edt_tsp_add"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_nsx_add"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Ngày sản xuất"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_hsd_add"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Hạn sử dụng"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_gravity="start"
+            android:id="@+id/edt_dg_add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Đơn giá"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_sl_add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Số Lượng"
+            android:layout_marginBottom="10dp"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <EditText
+        android:id="@+id/edt_ha_add"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Hình ảnh"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_mota_add"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_lsp_add"
+            android:layout_gravity="start"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Mã LSP"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_ncc_add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Mã NCC"
+            android:layout_marginBottom="10dp"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_th_add"
+            android:layout_gravity="start"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Mã TH"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_gg_add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Mã giảm giá"
+            android:layout_marginBottom="10dp"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/btn_add_product"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bg_btn_getstarted"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_add_pr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_add_product"
+            app:layout_constraintEnd_toEndOf="@+id/btn_add_product"
+            app:layout_constraintStart_toStartOf="@+id/btn_add_product"
+            app:layout_constraintTop_toTopOf="@+id/btn_add_product" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
